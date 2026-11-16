@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Tadisetty Mohith Sai — Computer Science Engineering student and aspiring software developer." />
+  <title>Tadisetty Mohith Sai | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-mark">M</span><span>mohith<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a>
+        <a class="nav-cta" href="#contact">Let's talk <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="intro-line">Hello, I'm</p>
+        <h1>Tadisetty<br><span class="gradient-text">Mohith Sai.</span></h1>
+        <h2 class="hero-role">Cloud Native Developer <span class="role-divider">/</span> CSE Student</h2>
+        <p class="hero-description">I am a Computer Science Engineering student interested in building scalable, cloud-native applications. I enjoy working across frontend, backend, containers, orchestration, and monitoring.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <i data-lucide="arrow-down-right"></i></a>
+          <a class="button button-ghost" href="mailto:2420030723cse@gmail.com">Get in touch <i data-lucide="send"></i></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Tadisetty-Mohithsai" target="_blank" rel="noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+          <a href="https://leetcode.com/u/Mohit_2020/" target="_blank" rel="noreferrer" aria-label="LeetCode"><i data-lucide="code-2"></i></a>
+          <a href="https://www.codechef.com/users/slow_pine_80" target="_blank" rel="noreferrer" aria-label="CodeChef"><i data-lucide="terminal"></i></a>
+          <span class="social-caption">Find me online</span>
+        </div>
+      </div>
+      <div class="hero-visual portrait-visual">
+        <div class="portrait-ring"></div><div class="portrait-glow"></div>
+        <img class="profile-photo" src="assets/mohith-profile.jpeg" alt="Portrait of Tadisetty Mohith Sai" />
+        <div class="cloud-chip cloud-chip-one"><i data-lucide="cloud"></i><span>Cloud Native</span></div>
+        <div class="cloud-chip cloud-chip-two"><i data-lucide="container"></i><span>Docker & Kubernetes</span></div>
+        <div class="cloud-chip cloud-chip-three"><i data-lucide="activity"></i><span>Monitoring</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="section-kicker">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-lead"><span class="quote-mark">“</span><p>Motivated and detail-oriented Computer Science Engineering student passionate about software development, frontend technologies, and problem-solving.</p></div>
+        <div class="about-detail"><p>I'm currently pursuing my B.Tech in Computer Science and Engineering at Koneru Lakshmaiah Education Foundation. I have a foundation in Java, Python, and C, and have hands-on experience creating desktop applications with Python GUI frameworks.</p><p>I value quick learning, teamwork, and thoughtful problem-solving. I'm looking forward to opportunities where I can contribute, learn from experienced developers, and grow as an engineer.</p>
+          <div class="about-tags"><span>Problem solver</span><span>Quick learner</span><span>Team player</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">02 / TOOLKIT</p><h2>Skills I bring <span class="gradient-text">to the table.</span></h2><p class="section-subtitle">The languages, tools, and concepts I use to turn ideas into working applications.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="braces"></i></div><h3>Programming</h3><div class="skill-pills"><span>Java</span><span>Python</span><span>C</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="panels-top-left"></i></div><h3>Frontend</h3><div class="skill-pills"><span>HTML</span><span>CSS</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="layers"></i></div><h3>Libraries & Frameworks</h3><div class="skill-pills"><span>Tkinter</span><span>Pygame</span><span>Pillow</span><span>Mutagen</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="workflow"></i></div><h3>Core Concepts</h3><div class="skill-pills"><span>OOP</span><span>GUI Development</span><span>Data Structures</span><span>Problem Solving</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="terminal-square"></i></div><h3>Cloud & DevOps Tools</h3><div class="skill-pills"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Docker</span><span>Kubernetes</span><span>Helm</span><span>CI/CD</span><span>Prometheus</span><span>Grafana</span></div></article>
+          <article class="skill-card skill-note"><div class="note-symbol">✳</div><h3>Always learning</h3><p>I enjoy exploring new technologies and improving my skills through hands-on projects.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="section-kicker">03 / SELECTED WORK</p><h2>Things I've <span class="gradient-text">built.</span></h2><p class="section-subtitle">A cloud-native event platform and a desktop application from my hands-on development experience.</p></div>
+      <article class="project-card eventsphere-card">
+        <div class="project-art eventsphere-art">
+          <div class="event-dashboard">
+            <div class="dashboard-top"><span class="dashboard-live"></span> EVENTSPHERE <span class="dashboard-label">ORGANIZER DASHBOARD</span></div>
+            <div class="dashboard-heading">Your events, <b>all in one place.</b></div>
+            <div class="dashboard-metrics">
+              <div><small>TICKETS SOLD</small><strong>1,248</strong><span>↗ Live overview</span></div>
+              <div><small>UPCOMING EVENTS</small><strong>08</strong><span>● Published</span></div>
+            </div>
+            <div class="dashboard-event"><div class="event-thumb"><i data-lucide="music-2"></i></div><div><b>Tech & Innovation Summit</b><small>Hyderabad · Event details</small></div><span class="event-status">ACTIVE</span></div>
+            <div class="dashboard-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div><div class="event-orb"></div>
+        </div>
+        <div class="project-info">
+          <div class="project-index">FEATURED CLOUD-NATIVE PROJECT · 01</div>
+          <h3>EventSphere<br><span class="gradient-text">Event Management Platform</span></h3>
+          <p>A full-stack, cloud-native event discovery and ticketing platform. Attendees can explore events and book tickets, while organizers manage events, ticket inventory, and performance.</p>
+          <ul class="feature-list">
+            <li><i data-lucide="check"></i> Event discovery, search, filtering, and user registration/login</li>
+            <li><i data-lucide="check"></i> Ticket booking with inventory checks and QR-code tickets</li>
+            <li><i data-lucide="check"></i> Organizer dashboard for event creation, sales, revenue, and attendance</li>
+            <li><i data-lucide="check"></i> Containerized deployment with Docker, Kubernetes, and Helm</li>
+            <li><i data-lucide="check"></i> CI/CD workflow and monitoring with Prometheus and Grafana</li>
+          </ul>
+          <div class="tech-row"><span>React</span><span>Vite</span><span>Tailwind CSS</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Docker</span><span>Kubernetes</span><span>Helm</span><span>Prometheus</span><span>Grafana</span></div>
+          <a class="text-link" href="https://github.com/Tadisetty-Mohithsai" target="_blank" rel="noreferrer">Explore my GitHub <i data-lucide="arrow-up-right"></i></a>
+        </div>
+      </article>
+      <div class="secondary-project">
+        <div><span class="project-index">ALSO BUILT</span><h3>Music Player Application</h3><p>Python desktop application with Tkinter, Pygame, playlist management, playback controls, and real-time progress tracking.</p></div>
+        <a class="text-link" href="https://github.com/Tadisettimohith/music" target="_blank" rel="noreferrer">View repository <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">04 / EDUCATION</p><h2>Where I'm <span class="gradient-text">learning.</span></h2></div>
+        <div class="education-card"><div class="edu-icon"><i data-lucide="graduation-cap"></i></div><div class="edu-main"><p class="section-kicker">BACHELOR'S DEGREE · 2024—2028</p><h3>Koneru Lakshmaiah Education Foundation</h3><p>Bachelor of Technology (B.Tech) — Computer Science and Engineering</p></div><div class="cgpa"><strong>8.33</strong><span>CGPA</span></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="beyond">
+      <div class="section-heading"><p class="section-kicker">05 / BEYOND THE CODE</p><h2>What keeps me <span class="gradient-text">inspired.</span></h2></div>
+      <div class="interest-grid"><div><i data-lucide="brain"></i><span>Problem solving</span></div><div><i data-lucide="book-open"></i><span>Anime & manga</span></div><div><i data-lucide="gamepad-2"></i><span>Gaming</span></div><div><i data-lucide="headphones"></i><span>Music</span></div><div><i data-lucide="users"></i><span>Team collaboration</span></div><div><i data-lucide="zap"></i><span>Continuous learning</span></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><p class="section-kicker">06 / CONTACT</p><h2>Have an opportunity<br>or an idea? <span class="gradient-text">Let's connect.</span></h2><p>I'm open to learning opportunities, internships, and conversations about software development.</p><a class="button button-primary" href="mailto:2420030723cse@gmail.com">Say hello <i data-lucide="arrow-up-right"></i></a><div class="contact-details"><a href="mailto:2420030723cse@gmail.com"><i data-lucide="mail"></i> 2420030723cse@gmail.com</a><a href="tel:+919030926700"><i data-lucide="phone"></i> +91 9030926700</a><span><i data-lucide="map-pin"></i> Hyderabad, Telangana</span></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">M</span><span>mohith<span class="brand-dot">.</span></span></a><p>Designed & built with curiosity. © <span id="year"></span> Tadisetty Mohith Sai</p><a href="https://github.com/Tadisetty-Mohithsai" target="_blank" rel="noreferrer">GitHub <i data-lucide="arrow-up-right"></i></a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
